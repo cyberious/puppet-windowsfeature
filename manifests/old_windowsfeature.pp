@@ -49,7 +49,7 @@
 #       ]
 #     }
 #
-define windowsfeature (
+define old_windowsfeature (
     $ensure = 'present',
     $feature_name = $title,
     $installmanagementtools = false,
